@@ -1,3 +1,17 @@
 ---
 layout: default
 ---
+
+<table class="table table-bordered">
+
+  <tr><td>3 letter code</td><td>{{ page.iso3 }}</td></tr>
+  <tr><td>2 letter code</td><td>{{ page.iso2 }}</td></tr>
+  <tr><td>Phone code</td><td>{{ page.phone_code }}</td></tr>
+  <tr><td>Capital</td><td>{{ page.capital }}</td></tr>
+  <tr><td>Currency</td><td>{{ page.currency }} ({{ page.currency_symbol }})</td></tr>
+  <tr><td>Top level domain</td><td>{{ page.tld }}</td></tr>
+  <tr><td>Region</td><td>{{ page.region }}</td></tr>
+  <tr><td>Latitude / Longitude</td><td>{{ page.latitude }} / {{ page.longitude }}</td></tr>
+  <tr><td>Map</td><td><a href="https://www.openstreetmap.org?mlat={{ page.latitude }}&mlon={{ page. longitude }}#map=9/{{ page.latitude }}/{{ page.longitude }}" target="_blank">OpenStreetMap</a></td>
+  <tr><td>Flag</td><td>{{ page.emoji }}</td></tr>
+</table>

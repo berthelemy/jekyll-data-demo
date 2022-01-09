@@ -28,6 +28,21 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+page_gen-dirs: true
+
+page_gen:
+- data: countries
+  template: page
+  dir: countries
+  index_files: false
+  name: country-name
+  name_expr:
+  title: name
+  title_expr:
+  extension:
+  filter:
+  filter_condition:
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

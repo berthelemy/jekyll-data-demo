@@ -7,6 +7,16 @@ menu: true
 title: Home
 order: 0
 ---
-Sample data provided by Darshan Gada at [https://data.world/dr5hn/country-state-city/workspace/file?filename=countries.csv](https://data.world/dr5hn/country-state-city/workspace/file?filename=countries.csv)
+This website is designed to show how a simple CSV file can be used to populate a website.
 
-This Countries States Cities Database is made available under the [Open Database License](https://github.com/dr5hn/countries-states-cities-database/blob/master/LICENSE). Any rights in individual contents of the database are licensed under the [Database Contents License](https://github.com/dr5hn/countries-states-cities-database/blob/master/.github/CONTENT_LICENSE).
+## Technology credits
+
+The site is built using the [Jekyll](https://jekyllrb.com/) static site generator.
+
+### Additional plugins
+
+[Jekyll Data Generator](https://github.com/fdavidcl/jekyll-data-generator) to create the individual country Pages
+
+### Look and Feel
+
+[AdminLTE3](https://adminlte.io/themes/v3/), built on [Bootstrap](https://getbootstrap.com/), with additional plugins from [Datatables.net](https://datatables.net/) and [ChartJS](https://www.chartjs.org/)

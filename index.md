@@ -19,4 +19,4 @@ The site is built using the [Jekyll](https://jekyllrb.com/) static site generato
 
 #### Look and Feel
 
-[AdminLTE3](https://adminlte.io/themes/v3/), built on [Bootstrap](https://getbootstrap.com/), with additional plugins from [Datatables.net](https://datatables.net/) and [ChartJS](https://www.chartjs.org/)
+[AdminLTE3](https://adminlte.io/themes/v3/), built on [Bootstrap](https://getbootstrap.com/), with additional plugins from [Datatables.net](https://datatables.net/), [Isotope.js](https://isotope.metafizzy.co/) and [ChartJS](https://www.chartjs.org/)

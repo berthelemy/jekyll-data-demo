@@ -3,17 +3,19 @@
 }
 
 /* fluid 5 columns */
-.grid-sizer,
-.grid-item { width: 25%; }
+.grid-sizer { width: 25%; }
 /* 2 columns */
-.grid-item--width2 { width: 40%; }
+/*.grid-item--width2 { width: 40%; }
 
 .grid-item {
   border: 1px solid #bbb;
   padding: 0.5em;
   height: 250px;
 }
+*/
+
 
 .flag {
-  font-size: 5em;
+  font-size: 5rem!important;
+  text-align: center;
 }
